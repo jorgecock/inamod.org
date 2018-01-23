@@ -1,0 +1,416 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+  
+
+.logo_foot{
+  width: 90px;
+  height: 90px;
+}
+
+.grid-item { 
+  width: 200px; 
+  padding: 9px 9px 9px 9px;
+}
+.grid-item--width2 { 
+  width: 400px; 
+}
+.bordeado{
+  border-radius: 9px;
+  border: solid white 9px;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+.ubica{
+  margin: 5px 5px 5px 5px;
+}
+ .img_mem{
+  width: 120px;
+  height: 80px;
+ }
+.letra_res{
+  margin-left: -25px;
+}
+
+ .fractal{
+   /* IE10+ */ 
+  background-image: -ms-linear-gradient(left, #FFFFFF 0%, #DBD7DB 100%);
+
+  /* Mozilla Firefox */ 
+  background-image: -moz-linear-gradient(left, #FFFFFF 0%, #DBD7DB 100%);
+
+  /* Opera */ 
+  background-image: -o-linear-gradient(left, #FFFFFF 0%, #DBD7DB 100%);
+
+  /* Webkit (Safari/Chrome 10) */ 
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #FFFFFF), color-stop(100, #DBD7DB));
+
+  /* Webkit (Chrome 11+) */ 
+  background-image: -webkit-linear-gradient(left, #FFFFFF 0%, #DBD7DB 100%);
+
+  /* W3C Markup */ 
+  background-image: linear-gradient(to right, #FFFFFF 0%, #DBD7DB 100%);
+ }
+.ima_sent{
+  margin: 4px 4px 4px 4px;
+}
+
+.letra_caro{
+  margin: -30px 7px 7px 7px;
+}
+
+
+.ima_video{
+  margin: 4px 0px 4px 0px;
+}
+
+
+.mem{
+  position: relative;
+  top: 45px; 
+}
+
+.Absolute-Center {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+
+.sena_small{
+  width: 60px;
+  height: 60px;
+}
+
+.sombra_texto{
+  text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+}
+
+
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+
+
+
+
+
+
+/*
+  hexagono
+  gallery
+  
+*/
+
+
+#lab {
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 70px;
+  position: relative;
+  margin: 8px 8px 8px 8px;
+ 
+
+  -webkit-transition: all ease 500ms;
+  -moz-transition: all ease 500ms;
+  -o-transition: all ease 500ms;
+  -ms-transition: all ease 500ms;
+  transition: all ease 500ms;
+}
+
+
+#lab h1 {
+  background: #B0DAD4;
+}
+
+.beaker {
+  -webkit-filter: drop-shadow(#424242 0px 1px 0px);
+  border-bottom: 2em solid #FFF;
+  border-left: 1em solid transparent;
+  border-right: 1em solid transparent;
+  border-radius: .5em;
+  height: 0;
+  width: 1em;
+  position: absolute;
+  right: 0.7em;
+  bottom: 22%;
+  font-size: 0.6em;
+}
+
+.beaker::before {
+  border-left: .25em solid #FFF;
+  border-radius: .25em;
+  border-right: .25em solid #FFF;
+  content: '';
+  height: .25em;
+  left: -.25em;
+  position: absolute;
+  top: -1em;
+  width: 1em;
+}
+
+.beaker::after {
+  border-left: .25em solid #FFF;
+  border-right: .25em solid #FFF;
+  content: '';
+  height: 1em;
+  left: 0;
+  position: absolute;
+  top: -1em;
+  width: .5em;
+}
+
+.sectionheader {
+  position: relative;
+}
+
+.lab_item {
+  width: 200px;
+  height: 230px;
+  position: relative;
+  display: inline-block;
+}
+
+.hexagon2 {
+  position: absolute;
+  width: 200px;
+  height: 400px;
+  top: -85px;
+}
+
+.hexagon {
+  overflow: hidden;
+  visibility: hidden;
+
+  -webkit-transform: rotate(120deg);
+  -moz-transform: rotate(120deg);
+  -o-transform: rotate(120deg);
+  -ms-transform: rotate(120deg);
+  transform: rotate(120deg);
+  cursor: pointer;
+}
+
+.hexagon-in1 {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+
+  -webkit-transform: rotate(-60deg);
+  -moz-transform: rotate(-60deg);
+  -o-transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+}
+
+.hexagon-in2 {
+  -webkit-box-shadow: inset 0 0 0 200px rgba(176, 218, 212, 0.48);
+  box-shadow: inset 0 0 0 200px rgba(176, 218, 212, 0.48);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+
+  -webkit-background-size: 125%;
+  -moz-background-size: 125%;
+  background-size: 125%;
+  visibility: visible;
+
+  -webkit-transform: rotate(-60deg);
+  -moz-transform: rotate(-60deg);
+  -o-transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.hexagon-in2:hover {
+  -webkit-box-shadow: inset 0 0 0 0px #B0DAD4;
+  box-shadow: inset 0 0 0 0px #B0DAD4;
+}
+
+#lab article {
+  padding-top: 1em;
+  width: 820px;
+  margin: 0 auto;
+}
+
+.lab_item:nth-child(7n-2) {
+  margin-left: 101px;
+}
+
+.lab_item:nth-child(n+5) {
+  margin-top: -55px;
+}
+
+@media (max-width: 1015px) {
+  #lab {
+  width: 100%;
+}
+
+}
+
+@media (max-width: 820px) {
+  .lab_item:nth-child(5n-1) {
+  margin-left: 102px;
+}
+
+.lab_item:nth-child(n+4) {
+  margin-top: -62px;
+}
+
+.lab_item:nth-child(7n-2) {
+  margin-left: 0px;
+}
+
+.lab_item:nth-child(n+5) {
+  margin-top: -56px;
+}
+
+#lab article {
+  width: 610px;
+}
+
+}
+
+@media (max-width: 640px) {
+  #lab article {
+  width: 405px;
+}
+
+.lab_item:nth-child(5n-1) {
+  margin-left: 0px;
+}
+
+.lab_item:nth-child(3n) {
+  margin-left: 102px;
+}
+
+.lab_item:nth-child(n+3) {
+  margin-top: -56px;
+}
+
+}
+
+@media (max-width: 450px) {
+  #lab article {
+  width: 300px;
+}
+
+.lab_item:nth-child(3n) {
+  margin-left: 0px;
+}
+
+.lab_item:nth-child(2n) {
+  margin-left: 102px;
+}
+
+.lab_item:nth-child(n+2) {
+  margin-top: -56px;
+}
+
+}
+
+
+html, body { overflow: auto; overflow-x: hidden; }
+
+.materialbox-caption{
+  color: white;
+  background-color: #4db6ac;
+}
+
+
+
+/* grid*/
+#container-01,
+#container-02 {
+    margin:20px auto;
+    max-width:800px;
+}
+.pinto {
+    box-sizing: border-box;
+}
+.pinto {
+    margin-bottom:15px;
+    color:#333;
+    text-align:left;
+    border-radius:5px;
+    overflow:hidden;
+}
+.pinto img {
+    display:block;
+    width:100%;
+}
+.pinto .info {
+    padding:10px 15px;
+    background-color:#fff;
+}
+.pinto .info h2 {
+    margin:0;
+    font-size:18px;
+}
+.pinto .info p {
+    margin:10px 0 0;
+    font-size:14px;
+}
