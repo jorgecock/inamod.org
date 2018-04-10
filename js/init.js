@@ -1,5 +1,45 @@
 (function($){
   $(function(){
+
+    /* botones para traer información , conjs sin recargar paginas */
+
+      $('#investigadores').click(function(){
+        $('#main_content').load('pages/investigadores/investigadores.php').slideDown(560);
+        $('#content_index').addClass('esconder');
+        Materialize.toast('Investigadores', 3000);
+      });  
+
+      $('#index').click(function(){
+        $('#content_index').removeClass('esconder');
+        $('#main_content').html('');
+        wistiaEmbed.play();
+        Materialize.toast('Inicio', 3000);
+      });
+
+
+
+      $('#proyectos').click(function(){
+        $('#main_content').load('pages/proyectos/proyectos.php').slideDown(560);
+        $('#content_index').addClass('esconder');
+        Materialize.toast('Proyectos', 3000);
+
+      }); 
+
+
+      $('#nosotros').click(function(){
+        $('#main_content').load('pages/nosotros/nosotros.php').slideDown(560);
+        $('#content_index').addClass('esconder');
+        Materialize.toast('Nosotros', 3000);
+
+      }); 
+
+
+
+
+
+
+
+
   	$('.carousel.carousel-slider').carousel({fullWidth: true});
 
     $('.carousel').carousel();
@@ -44,7 +84,7 @@
           $contactForm.find('.alert--loading').hide();
           $contactForm.append('<div class="card green">Mensaje Enviado!</div>');
     
-          $('#formulario_con').html('<div class="container"><div class="card horizontal"><div class="card-image ima_sent"><img src="img/mensaje_ok.png" style="max-width: 69%;position:relative;left: 54px;" ></div><div class="card-stacked"><div class="card-content"><blockquote><p class="flow-text">El mensaje ha sido enviado, nos comunicaremos muy pronto</p> </blockquote></div></div></div></div>')
+          $('#formulario_con').html('<div class="container"><div class="card horizontal"><div class="card-image ima_sent"><img src="https://s3.amazonaws.com/inamod/mensaje_ok.png" style="max-width: 69%;position:relative;left: 54px;" ></div><div class="card-stacked"><div class="card-content"><blockquote><p class="flow-text">El mensaje ha sido enviado, nos comunicaremos muy pronto</p> </blockquote></div></div></div></div>')
 
         },
         error: function(err) {
@@ -56,3 +96,12 @@
   
   }); // end of document ready
 })(jQuery); // end of jQuery name space
+
+
+
+
+
+
+
+
+

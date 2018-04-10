@@ -6,6 +6,11 @@
  * Made By MaterializeCSS.com
  */
   
+.esconder{
+  display:none
+
+}
+
 
 .logo_foot{
   width: 90px;
