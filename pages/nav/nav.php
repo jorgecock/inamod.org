@@ -1,16 +1,44 @@
-	
 
-<div class="fixed-action-btn horizontal click-to-toggle">
-	<a class="btn-floating btn-large orange accent-4 pulse">
-		<i class="material-icons">menu</i>
-	</a>
-	<ul id="nav">
-		<li><a class="btn-floating teal darken-2" id="index"><i class="material-icons">domain</i></a></li>
-		<li><a class="btn-floating teal darken-2" id="investigadores"><i class="material-icons">contact_mail</i></a></li>
-		<li><a class="btn-floating teal darken-2" id="proyectos"><i class="material-icons">insert_chart</i></a></li>
-		<li><a class="btn-floating teal darken-2" id="nosotros"><i class="material-icons">work</i></a></li>
-	</ul>
+
+
+
+
+<style>
+	.mobile-fab-tip {
+    position: fixed;
+    right: 85px;
+    padding:0px 0.5rem;
+    text-align: right;
+    background-color: #323232;
+    border-radius: 2px;
+    color: #FFF;
+    width:auto;
+} 
+</style>
+
+
+<div class="fixed-action-btn" style="bottom:24px; right:24px;">
+<a class="btn-floating btn-large orange accent-4 pulse"><i class="large material-icons">settings</i></a>
+    <ul id="nav">                                
+        <li>
+            <a class="btn-floating teal darken-2" id="index"><i class="material-icons">domain</i></a>
+            <a class="btn-floating mobile-fab-tip">Inicio</a> <!--tooltip-->
+        </li>                           
+        <li>
+            <a class="btn-floating teal darken-2" id="investigadores"><i class="material-icons">contact_mail</i></a>
+            <a class="btn-floating mobile-fab-tip">Investigadores</a> <!--tooltip--> 
+        </li>                               
+        <li>
+            <a class="btn-floating teal darken-2" id="proyectos"><i class="material-icons">insert_chart</i></a>
+            <a class="btn-floating mobile-fab-tip modal-trigger">Proyectos</a> <!--tooltip-->
+        </li> 
+        <li>
+            <a class="btn-floating teal darken-2" id="nosotros"><i class="material-icons">work</i></a>
+            <a class="btn-floating mobile-fab-tip modal-trigger">Nosotros</a> <!--tooltip-->
+        </li>                               
+    </ul>
 </div>
+
 
 
 <script>
@@ -23,7 +51,7 @@
 	      $("a").removeClass("orange");
 	      // add class to the one we clicked
 	      $(this).addClass("orange");
-	   });
+	    });
 
 
 
