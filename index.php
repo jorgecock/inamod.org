@@ -45,7 +45,7 @@
 	<script src="js/E-v1.js"></script>
 
 	<script>
-		wistiaEmbed = Wistia.embed("e552jbmqyh", {
+		wistiaEmbed = Wistia.embed("38oz3ozh8j", {
 			videoQuality: "hd-only",
 			videoFoam: true
 		});
