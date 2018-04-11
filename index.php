@@ -15,10 +15,21 @@
 	<script src="js/jquery-3.2.1.js"></script>
 	<script src="js/materialize.js"></script>
 
+<style>
+	body{
+    background: url(https://s3.amazonaws.com/inamod/hex.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #e0f2f1;
+  }
 
+
+
+
+</style>
 
 </head>
-<body class="teal lighten-5">
+<body>
 	
 
 	<?php include_once 'pages/nav/nav.php'?>

@@ -46,6 +46,18 @@
 	</div>
 
 
+	<div class="card teal lighten-1">
+		<div class="card-content white-text center-align">
+			<div class="container">
+				<p>I am a very simple card. I am good at containing small bits of information.
+				I am convenient because I require little markup to use effectively. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dicta at in, nulla odit velit unde mollitia ea eos recusandae nisi numquam, quod porro temporibus qui sed omnis ipsum consectetur.</p>
+			</div>
+		</div>
+		
+	</div>
+
+
+
 
 	<script>
 		$('.materialboxed').materialbox();

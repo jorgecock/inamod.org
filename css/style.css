@@ -5,7 +5,15 @@
  *
  * Made By MaterializeCSS.com
  */
+
   
+.centrar{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 .esconder{
   display:none
 

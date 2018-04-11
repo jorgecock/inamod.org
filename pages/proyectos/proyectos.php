@@ -3,6 +3,19 @@
 	PROYECTOS
 </h4>
 <img src="https://s3.amazonaws.com/inamod/human_fractal.jpg" class="responsive-img materialboxed scrollspy" id="introduction" data-caption="Human Fractal">
+
+
+<div class="card teal lighten-1">
+	<div class="card-content white-text center-align">
+		<div class="container">
+			<p>I am a very simple card. I am good at containing small bits of information.
+			I am convenient because I require little markup to use effectively. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dicta at in, nulla odit velit unde mollitia ea eos recusandae nisi numquam, quod porro temporibus qui sed omnis ipsum consectetur.</p>
+		</div>
+	</div>
+	
+</div>
+
+
 <div id="container-01">
 	<div class="pinto">
 		<img src="https://s3.amazonaws.com/inamod/eg_03.jpg" class="hoverable materialboxed" data-caption="Proyecto Chaleco antibalas">
@@ -49,12 +62,26 @@
 						</div>
 
 
+
+
+						<div class="card teal lighten-1">
+							<div class="card-content white-text center-align">
+								<div class="container">
+									<p>I am a very simple card. I am good at containing small bits of information.
+									I am convenient because I require little markup to use effectively. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dicta at in, nulla odit velit unde mollitia ea eos recusandae nisi numquam, quod porro temporibus qui sed omnis ipsum consectetur.</p>
+								</div>
+							</div>
+							
+						</div>
+
+
+
 						<div class="fractal" id="equipo">		
 
 
 							<ul class="collapsible popout teal lighten-2" data-collapsible="accordion">
 								<li>
-									<div class="collapsible-header"><i class="material-icons">filter_drama</i>Colombia Moda</div>
+									<div class="collapsible-header" id="colomoda2017"><i class="material-icons">filter_drama</i>Colombia Moda</div>
 									<div class="collapsible-body">
 										<span>
 											<div class="row">
