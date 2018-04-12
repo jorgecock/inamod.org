@@ -8,7 +8,6 @@
 
 
 
-
 <div class="grey lighten-2 "> <br>
 
 	<div class="card teal lighten-1">

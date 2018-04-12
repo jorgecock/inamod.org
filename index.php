@@ -53,7 +53,7 @@
 	<script src="js/init.js"></script>					
 	<script type="text/javascript" src="js/toast.js"></script>
 
-	<script src="js/E-v1.js"></script>
+	<script src="https://fast.wistia.com/assets/external/E-v1.js"></script>
 
 	<script>
 
@@ -74,7 +74,7 @@
 				}
 
 			}else{
-				$('#video_principal').html('<video class="responsive-video" loop autoplay controls="false" id="video_ama" muted playsinline><source src="https://s3.amazonaws.com/tutorialespatronessena/inamod/intro+inamod.MP4" type="video/mp4"></video>')
+				$('#video_principal').html('<video class="responsive-video" loop autoplay controls="false" id="video_ama" muted playsinline><source src="https://s3.amazonaws.com/tutorialespatronessena/inamod/intro.MP4" type="video/mp4"></video>')
 
 
 
