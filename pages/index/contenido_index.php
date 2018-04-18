@@ -25,9 +25,6 @@
 
 
 
-
-
-
 	<div class="container" id="contacto">
 		<div id="formulario_con">
 			<h5 class="header center teal-text teal-darken-2">Contáctenos</h5>
@@ -43,7 +40,10 @@
 							<input type="hidden" name="_subject" value="Subject">
 							<input type="hidden" name="_cc" value="email@cc.com">
 							<!-- /CONFIG -->
-							<input class="btn waves-effect waves-light submit orange darken-3" type="submit" value="Enviar">
+							<div class="center-align">
+								<input class="btn waves-effect waves-light submit orange darken-3" type="submit" value="Enviar">
+							</div>
+							
 						</form>
 					</div>
 				</div>

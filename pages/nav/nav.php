@@ -53,11 +53,7 @@
 	      $(this).addClass("orange");
 	    });
 
-
-
 	});
-
-
-        
+       
 
 </script>
