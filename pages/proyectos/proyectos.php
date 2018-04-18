@@ -29,11 +29,11 @@
 					<img class="activator" src="https://s3.amazonaws.com/tutorialespatronessena/chaleco_button.jpg">
 				</div>
 				<div class="card-content">
-					<span class="card-title activator grey-text text-darken-4">CHALECO ANTIBALAS<i class="material-icons right">more_vert</i></span>
+					<span class="card-title activator grey-text text-darken-4">Chaleco antibalas<i class="material-icons right">more_vert</i></span>
 					
 				</div>
 				<div class="card-reveal teal lighten-1">
-					<span class="card-title white-text center-align"> <b>CHALECO ANTIBALAS</b> <i class="material-icons right">close</i></span>
+					<span class="card-title white-text center-align"> <b>Chaleco antibalas</b> <i class="material-icons right">close</i></span>
 					<div id="chale_body"></div>
 				</div>
 			</div>
