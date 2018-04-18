@@ -61,11 +61,6 @@
 
 		$(document).ready(function() {
 
-
-	
-
-
-
 				if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
 					
 					$('#video_principal').html('<div id="wistia_38oz3ozh8j"></div>');
@@ -79,26 +74,20 @@
 					}
 				}else{
 					
-				$('#video_principal').html('<div id="wistia_tcroqxnroe"></div>');
+					$('#video_principal').html('<div id="wistia_tcroqxnroe"></div>');
 
-				wistiaEmbed = Wistia.embed("tcroqxnroe", {
-					videoQuality: "hd-only",
-					videoFoam: true
-				});
-				function setPlaySpeed(speed) {
-					wistiaEmbed.playbackRate(speed);
+					wistiaEmbed = Wistia.embed("tcroqxnroe", {
+						videoQuality: "hd-only",
+						videoFoam: true
+					});
+					function setPlaySpeed(speed) {
+						wistiaEmbed.playbackRate(speed);
+					}
+
 				}
-
-				}
-
-
 
 
 /*
-
-
-
-
 
 
 	hay que solucionar el problema con el video en amazon
@@ -132,37 +121,10 @@
 
 
 
-
-
-	
-
-
-
-
-
-
-
 		});
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		
 
 	</script>
 	

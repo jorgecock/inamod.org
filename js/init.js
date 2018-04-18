@@ -13,9 +13,9 @@
       $('#index').click(function(){
         $('#content_index').removeClass('esconder');
         $('#main_content').html('');
-        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) { 
-          wistiaEmbed.play();
-        }        
+      
+        wistiaEmbed.play(); /* play al vídeo de wistia */
+             
         Materialize.toast('Inicio', 3000);
         play(); 
 
