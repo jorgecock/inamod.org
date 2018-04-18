@@ -45,12 +45,23 @@
 	$(document).ready(function(){
 	    $('.tooltipped').tooltip();
 
+    
+
+
 	    /* cambiar el color del boton cuando se pasa de sección */
-	    $("ul#nav li a").click(function() {
-	      // remove classes from all
-	      $("a").removeClass("orange");
-	      // add class to the one we clicked
-	      $(this).addClass("orange");
+	    $("ul#nav li a").click(function() {          
+         // remove classes from all
+          $("a").removeClass("pulse");
+          // add class to the one we clicked
+          $(this).addClass("pulse");
+
+
+
+            
+
+
+
+	     
 	    });
 
 	});

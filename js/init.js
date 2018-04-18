@@ -7,7 +7,7 @@
         $('#main_content').load('pages/investigadores/investigadores.php').slideDown(560);
         $('#content_index').addClass('esconder');
         Materialize.toast('Investigadores', 3000);
-        pausar();
+        
       });  
 
       $('#index').click(function(){
@@ -17,7 +17,7 @@
         wistiaEmbed.play(); /* play al vídeo de wistia */
              
         Materialize.toast('Inicio', 3000);
-        play(); 
+       
 
       });
 
@@ -27,7 +27,7 @@
         $('#main_content').load('pages/proyectos/proyectos.php').slideDown(560);
         $('#content_index').addClass('esconder');
         Materialize.toast('Proyectos', 3000);
-        pausar();
+       
 
       }); 
 
@@ -36,18 +36,12 @@
         $('#main_content').load('pages/nosotros/nosotros.php').slideDown(560);
         $('#content_index').addClass('esconder');
         Materialize.toast('Nosotros', 3000);
-         pausar();
+        
 
       }); 
 
 
-      function pausar(){
-        $('#video_ama')[0].pause();
-      }
-
-      function play(){
-        $('#video_ama')[0].play();
-      }
+      
 
 
   	$('.carousel.carousel-slider').carousel({fullWidth: true});
