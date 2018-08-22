@@ -11,14 +11,26 @@
 <div class="grey lighten-2 "> <br>
 
 	<div class="card teal lighten-1">
-	<div class="card-content white-text center-align">
-		<div class="container">
-			<span class="card-title">Grupo de investigación INAMOD</span>
-			
+		<div class="card-content white-text center-align">
+			<div class="container">
+				<span class="card-title "> <b>Grupo de investigación INAMOD</b> </span>
+				La investigación aplicada es una herramienta formativa que desarrolla SENNOVA a través de diferentes proyectos de formación.
+				<br>
+				El aprendiz participa activamente en la investigación del SENA a partir de los siguientes instrumentos:
+
+				​<br>
+				<b>Semilleros de investigación.</b>
+
+				<br>
+				<b>Grupos de investigación aplicada.</b>
+
+				<br>
+				<b>Desarrollo de proyectos de investigación aplicada y desarrollo tecnológico  por redes de conocimiento, en los centros de formación.​</b>
+
+			</div>
 		</div>
+		
 	</div>
-	
-</div>
 
 
 
@@ -53,6 +65,6 @@
 		<?php include_once 'pages/index/map_panel.php'?>
 
 
-	</div>
-	<br>
-</div>
+		</div>
+		<br>
+		</div>
