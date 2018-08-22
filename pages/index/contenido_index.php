@@ -20,15 +20,6 @@
 	
 </div>
 
-<div class="card white lighten-1">
-	<div class="card-content black-text center-align">
-		<div class="container">
-			<?php include_once 'pages/diapositivas/diapositivas.php'?>
-			
-		</div>
-	</div>
-	
-</div>
 
 
 

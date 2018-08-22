@@ -2,6 +2,21 @@
   $(function(){
 
     /* botones para traer información , conjs sin recargar paginas */
+      $('#antropometria').click(function(){
+        $('#main_content').load('pages/antropometria/antropometria.php').slideDown(560);
+        $('#content_index').addClass('esconder');
+        Materialize.toast('Proyecto antropometría', 3000);
+        
+        
+      }); 
+
+      $('#colombiamoda').click(function(){
+        $('#main_content').load('pages/colombiamoda2018/colombiamoda2018.php').slideDown(560);
+        $('#content_index').addClass('esconder');
+        Materialize.toast('Colombia Moda 2018', 3000);
+        
+      }); 
+
 
       $('#investigadores').click(function(){
         $('#main_content').load('pages/investigadores/investigadores.php').slideDown(560);

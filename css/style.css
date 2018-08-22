@@ -6,6 +6,10 @@
  * Made By MaterializeCSS.com
  */
 
+.separar{
+  margin: 4px 4px 4px 4px;
+}
+
   
 .centrar{
   display: block;

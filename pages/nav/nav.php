@@ -19,7 +19,8 @@
 
 <div class="fixed-action-btn" style="bottom:24px; right:24px;">
 <a class="btn-floating btn-large orange accent-4 pulse"><i class="large material-icons white-text">settings</i></a>
-    <ul id="nav">                                
+    <ul id="nav">
+                                       
         <li>
             <a class="btn-floating teal darken-2" id="index"><i class="material-icons">domain</i></a>
             <a class="btn-floating mobile-fab-tip">Inicio</a> <!--tooltip-->
@@ -35,7 +36,15 @@
         <li>
             <a class="btn-floating teal darken-2" id="nosotros"><i class="material-icons">work</i></a>
             <a class="btn-floating mobile-fab-tip modal-trigger">Nosotros</a> <!--tooltip-->
-        </li>                               
+        </li>
+        <li>
+            <a class="btn-floating teal darken-2" id="colombiamoda"><i class="material-icons">add_location</i></a>
+            <a class="btn-floating mobile-fab-tip modal-trigger">Colombia Moda 2018</a> <!--tooltip-->
+        </li> 
+        <li>
+            <a class="btn-floating teal darken-2" id="antropometria"><i class="material-icons">directions_walk</i></a>
+            <a class="btn-floating mobile-fab-tip">Proyecto Antropometría</a> <!--tooltip-->
+        </li>                                
     </ul>
 </div>
 
@@ -45,20 +54,12 @@
 	$(document).ready(function(){
 	    $('.tooltipped').tooltip();
 
-    
-
-
 	    /* cambiar el color del boton cuando se pasa de sección */
 	    $("ul#nav li a").click(function() {          
          // remove classes from all
           $("a").removeClass("pulse");
           // add class to the one we clicked
           $(this).addClass("pulse");
-
-
-
-            
-
 
 
 	     
