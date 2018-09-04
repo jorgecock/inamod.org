@@ -18,7 +18,7 @@
 
 
 <div class="fixed-action-btn" style="bottom:24px; right:24px;">
-<a class="btn-floating btn-large orange accent-4 pulse"><i class="large material-icons white-text">settings</i></a>
+<a class="btn-floating btn-large orange accent-4 pulse"><i class="large material-icons white-text">dehaze</i></a>
     <ul id="nav">
                                        
         <li>

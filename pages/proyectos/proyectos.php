@@ -8,8 +8,9 @@
 <div class="card teal lighten-1">
 	<div class="card-content white-text center-align">
 		<div class="container">
-			<p>I am a very simple card. I am good at containing small bits of information.
-			I am convenient because I require little markup to use effectively. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dicta at in, nulla odit velit unde mollitia ea eos recusandae nisi numquam, quod porro temporibus qui sed omnis ipsum consectetur.</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti iusto expedita vero excepturi dolorem nemo vitae cum voluptate sit sequi libero, doloribus, optio id, animi itaque autem. Voluptatem, perferendis, eaque.
+			</p>
 		</div>
 	</div>
 	
@@ -102,7 +103,7 @@
 
 	<ul class="collapsible popout teal lighten-2" data-collapsible="accordion">
 		<li>
-			<div class="collapsible-header" id="colomoda2017"><i class="material-icons">filter_drama</i>Colombia Moda</div>
+			<div class="collapsible-header" id="colomoda2017"><i class="material-icons">filter_drama</i>Colombia Moda 2017</div>
 			<div class="collapsible-body">
 				<span>
 					<div class="row">

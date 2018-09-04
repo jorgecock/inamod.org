@@ -23,7 +23,9 @@
 		background-color: #e0f2f1;
 	}
 
-
+	#converse-chat{
+		left: 0px !important;
+	}
 
 
 </style>
@@ -32,6 +34,16 @@
 
 <body>
 	
+	
+	<script>
+	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+
+	}else{
+
+	}
+	
+	</script>
+
 
 	<?php include_once 'pages/nav/nav.php'?>
 
@@ -133,3 +145,14 @@
 </html>
 
 
+
+
+<!-- Código de instalación Cliengo para My site -->
+ <script type="text/javascript">(function () {
+ var ldk = document.createElement('script');
+ ldk.type = 'text/javascript';
+ ldk.async = true;
+ ldk.src = 'https://s.cliengo.com/weboptimizer/5b8f0ac3e4b0e8d911a92d42/5b8f0ac4e4b0e8d911a92d46.js';
+ var s = document.getElementsByTagName('script')[0];
+ s.parentNode.insertBefore(ldk, s);
+ })();</script>
