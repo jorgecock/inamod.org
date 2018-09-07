@@ -63,6 +63,7 @@
 
 	</div>
 
+<!-- 
 
 	<div class="card teal lighten-1">
 		<div class="card-content white-text center-align">
@@ -73,6 +74,9 @@
 		</div>
 		
 	</div>
+
+-->
+
 
 
 
