@@ -8,9 +8,9 @@
 <div class="card teal lighten-1">
 	<div class="card-content white-text center-align">
 		<div class="container">
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti iusto expedita vero excepturi dolorem nemo vitae cum voluptate sit sequi libero, doloribus, optio id, animi itaque autem. Voluptatem, perferendis, eaque.
-			</p>
+			<h5>
+				 Estos son algunos de los proyectos mas representativos realizado por nuestro grupo de trabajo INAMOD
+			</h5>
 		</div>
 	</div>
 	
@@ -18,8 +18,15 @@
 
 
 
+
+
+
+
 <div class="container">
 
+<video class="responsive-video" controls>
+    <source src="https://s3.amazonaws.com/tutorialespatronessena/Presentaci_n_proceso_dise_o_3D.mp4" type="video/mp4">
+  </video>
 
 
 	<div class="row">
@@ -86,15 +93,7 @@
 
 
 
-<div class="card teal lighten-1">
-	<div class="card-content white-text center-align">
-		<div class="container">
-			<p>I am a very simple card. I am good at containing small bits of information.
-			I am convenient because I require little markup to use effectively. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus dicta at in, nulla odit velit unde mollitia ea eos recusandae nisi numquam, quod porro temporibus qui sed omnis ipsum consectetur.</p>
-		</div>
-	</div>
-	
-</div>
+
 
 
 
