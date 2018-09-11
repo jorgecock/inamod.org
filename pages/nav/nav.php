@@ -44,6 +44,10 @@
         <li>
             <a class="btn-floating teal darken-2" id="antropometria"><i class="material-icons">directions_walk</i></a>
             <a class="btn-floating mobile-fab-tip">Proyecto Antropometría</a> <!--tooltip-->
+        </li> 
+         <li>
+            <a class="btn-floating teal darken-2" id="foro"><i class="material-icons">message</i></a>
+            <a class="btn-floating mobile-fab-tip">Foro</a> <!--tooltip-->
         </li>                                
     </ul>
 </div>
@@ -65,7 +69,20 @@
 	     
 	    });
 
+
+
+          $('#foro').click(function(){
+            $('#main_content').load('pages/foro/foro.php').slideDown(560);
+            $('#content_index').addClass('esconder');
+            Materialize.toast('Foro', 3000);        
+            
+          }); 
+      
+
 	});
+
+
+
        
 
 </script>

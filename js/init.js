@@ -2,6 +2,9 @@
   $(function(){
 
     /* botones para traer información , conjs sin recargar paginas */
+      
+
+
       $('#antropometria').click(function(){
         $('#main_content').load('pages/antropometria/antropometria.php').slideDown(560);
         $('#content_index').addClass('esconder');
@@ -56,7 +59,8 @@
       }); 
 
 
-      
+
+     
 
 
   	$('.carousel.carousel-slider').carousel({fullWidth: true});
